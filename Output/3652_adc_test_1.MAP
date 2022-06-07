@@ -1,0 +1,1453 @@
+
+Linker Version 8.7.7.211123
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_ADC.OBJ
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BCH32.OBJ
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\RF_API.OBJ
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\SPI.OBJ
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\STARTUP1_L.OBJ
+Input Object File: c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     0001h     0002h    0002h      CODE               @crom (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\RF_API.OBJ)
+     00h     0003h     0003h    0001h      CODE               _RFReadSyncword (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0004h     0007h    0004h      CODE               @INT0_proc_code (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     0008h     000dh    0006h      CODE               @ROMDATA_BASE (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\STARTUP1_L.OBJ)
+     00h     000eh     0014h    0007h      CODE               @crom (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0015h     001bh    0007h      CODE               _uart_int_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     001ch     001fh    0004h      CODE               @TB0_proc_code (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     0020h     0023h    0004h      CODE               _IIC_Init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     0024h     0027h    0004h      CODE               @INT1_proc_code (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     0028h     0048h    0021h      CODE               @start (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     0049h     0065h    001dh      CODE               @crom (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     0066h     0089h    0024h      CODE               @crom (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     008ah     00e6h    005dh      CODE               @crom (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     00e7h     0159h    0073h      CODE               _convert_integer_to_string (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     015ah     016fh    0016h      CODE               _delay (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     0170h     0185h    0016h      CODE               _sysInit (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     0186h     01e6h    0061h      CODE               _main (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     01e7h     01fdh    0017h      CODE               _TB0_proc (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     01feh     024fh    0052h      CODE               _adc_selectChannel (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_ADC.OBJ)
+     00h     0250h     0262h    0013h      CODE               _adc_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_ADC.OBJ)
+     00h     0263h     027ah    0018h      CODE               _adc_getValue (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_ADC.OBJ)
+     00h     027bh     0323h    00a9h      CODE               _itoa (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     0324h     0331h    000eh      CODE               _uart_prot_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     0332h     0339h    0008h      CODE               _uart_send (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     033ah     033fh    0006h      CODE               _uart_receive (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     0340h     034eh    000fh      CODE               _uart_printf (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     034fh     036ah    001ch      CODE               _uart_int (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     036bh     0377h    000dh      CODE               _gpio_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     0378h     0386h    000fh      CODE               _int_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     0387h     038ch    0006h      CODE               _INT0_proc (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     038dh     0392h    0006h      CODE               _INT1_proc (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     0393h     03a2h    0010h      CODE               _IIC_Start (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     03a3h     03afh    000dh      CODE               _IIC_Stop (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     03b0h     03d5h    0026h      CODE               _Wr_Byte (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     03d6h     03f1h    001ch      CODE               _Rd_Byte (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     03f2h     0408h    0017h      CODE               _checkAck (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     0409h     041eh    0016h      CODE               _WriteI2C_Int (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     041fh     043ah    001ch      CODE               _ktd_en (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     043bh     04d7h    009dh      CODE               _ktd_clear (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     04d8h     057eh    00a7h      CODE               _ktd_rgb_ctrl (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     057fh     0625h    00a7h      CODE               _ktd_ring (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     0626h     06b9h    0094h      CODE               _ktd_clockwise_ring (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     06bah     074dh    0094h      CODE               _ktd_anticlockwise_ring (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     074eh     0758h    000bh      CODE               _SpiWriteRegCMD (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0759h     075eh    0006h      CODE               _SpiWriteStrobeCMD (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     075fh     076ah    000ch      CODE               _SpiReadRegCMD (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     076bh     077fh    0015h      CODE               _RFWriteBuf (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0780h     079bh    001ch      CODE               _RFWriteBuf2 (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     079ch     07b6h    001bh      CODE               _RFReadBuf (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     07b7h     07d4h    001eh      CODE               _RFReadBuf2 (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     07d5h     07efh    001bh      CODE               _WriteFIFO (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     07f0h     080ch    001dh      CODE               _ReadFIFO (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     080dh     0815h    0009h      CODE               _RFEnATR (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0816h     081eh    0009h      CODE               _RFDisATR (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     081fh     0824h    0006h      CODE               _RFXtalReady (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0825h     0837h    0013h      CODE               _ResetLvRF (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0838h     08c6h    008fh      CODE               _BC3602_Config (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     08c7h     08d7h    0011h      CODE               _RFWriteSyncword (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     08d8h     0920h    0049h      CODE               _RFSetDRPram (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0921h     0945h    0025h      CODE               _RFWriteFreqTABLE (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0946h     0973h    002eh      CODE               _RFWriteFreq (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0974h     0991h    001eh      CODE               _RFSetPower (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0992h     099fh    000eh      CODE               _RFCalibration (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     09a0h     09a7h    0008h      CODE               _RFGetClrRFIrq (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     09a8h     09aah    0003h      CODE               _ResetTXFIFO (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     09abh     09adh    0003h      CODE               _ResetRXFIFO (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     09aeh     09b0h    0003h      CODE               _EntryLightSleep (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     09b1h     09b3h    0003h      CODE               _EntryDeepSleep (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     09b4h     09b6h    0003h      CODE               _EntryIdleMode (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     09b7h     09c4h    000eh      CODE               _LircCalibration (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     09c5h     09dch    0018h      CODE               _RF_Init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     09ddh     0a01h    0025h      CODE               _RF_TxCarrier (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0a02h     0a31h    0030h      CODE               _RF_RxBER (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0a32h     0a49h    0018h      CODE               _RF_WriteFreq (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0a4ah     0a52h    0009h      CODE               _RF_SetSniffPrm (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0a53h     0a5bh    0009h      CODE               _RF_SetAddr (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0a5ch     0a69h    000eh      CODE               _RF_EntryRxMode (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0a6ah     0a7ch    0013h      CODE               _RF_EntrySniffMode (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0a7dh     0a8dh    0011h      CODE               _RF_EntryWOT_Mode (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0a8eh     0aa2h    0015h      CODE               _RF_SendData (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0aa3h     0aa8h    0006h      CODE               _RF_ResendData (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0aa9h     0ab2h    000ah      CODE               _RF_ReadRxData (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0ab3h     0ab7h    0005h      CODE               _RFReadRssi (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0ab8h     0acah    0013h      CODE               _Extend_FIFO_Enable (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0acbh     0adbh    0011h      CODE               _Extend_FIFO_Disable (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0adch     0aech    0011h      CODE               _RFEnARK (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0aedh     0af5h    0009h      CODE               _RFDisARK (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0af6h     0b3bh    0046h      CODE               _CRC16_CCITT_FALSE (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0b3ch     0b7ah    003fh      CODE               _RF_Parameter_loading (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\RF_API.OBJ)
+     00h     0b7bh     0c48h    00ceh      CODE               _SimpleFIFO_TX_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\RF_API.OBJ)
+     00h     0c49h     0d0fh    00c7h      CODE               _SimpleFIFO_RX_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\RF_API.OBJ)
+     00h     0d10h     0d1fh    0010h      CODE               _SpiIOInti (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\SPI.OBJ)
+     00h     0d20h     0d21h    0002h      CODE               _SpiCSN_low (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\SPI.OBJ)
+     00h     0d22h     0d23h    0002h      CODE               _SpiCSN_high (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\SPI.OBJ)
+     00h     0d24h     0d2eh    000bh      CODE               _SpiRead (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\SPI.OBJ)
+     00h     0d2fh     0d38h    000ah      CODE               _SpiWrite (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\SPI.OBJ)
+     00h     0d39h     0d4bh    0013h      CODE               _fun_RamInit (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0d4ch     0d68h    001dh      CODE               _Sys_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0d69h     0d6eh    0006h      CODE               _RF_Process_Init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0d6fh     0e11h    00a3h      CODE               _RF_Finished_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0e12h     0e22h    0011h      CODE               _DATA_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0e23h     0e45h    0023h      CODE               _KEY_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0e46h     0e6ch    0027h      CODE               _RF_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0e6dh     0e83h    0017h      CODE               _System_deepsleep (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0e84h     0ebah    0037h      CODE               _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0ebbh     0ecdh    0013h      CODE               _builtin_holtek_mulhi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0eceh     0ed7h    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0ed8h     0effh    0028h      CODE               _memcpy (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib)
+     00h     0f00h     0f0fh    0010h      CODE               _CROM2PROM (CROM2PROM)
+     00h     0080h     0080h    0001h      DATA     164       @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     119       @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     114       @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     47        @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     36        @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     14        @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     8         @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     3         @data_rh (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     0088h    0001h      DATA     2         @data_r11c (isr:ra~rh)
+     00h     0089h     0089h    0001h      DATA     2         @data_r21c (isr:ra~rh)
+     00h     008ah     008ah    0001h      DATA     6         @data_ra1c (isr:ra~rh)
+     00h     008bh     008bh    0001h      DATA     2         @data_r104 (isr:ra~rh)
+     00h     008ch     008ch    0001h      DATA     2         @data_r204 (isr:ra~rh)
+     00h     008dh     008dh    0001h      DATA     2         @data_r124 (isr:ra~rh)
+     00h     008eh     008eh    0001h      DATA     2         @data_r224 (isr:ra~rh)
+     00h     00a7h     00a7h    0001h      DATA     2         @HCCINIT_DeviceACK_Flag (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     00a8h     00a8h    0001h      DATA     1         @HCCINIT_Fg_I2c_WrRd (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     00a9h     00a9h    0001h      DATA     1         @HCCINIT_DeviceACK_CMD_Flag (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     00aah     00aah    0001h      DATA     0         @HCCINIT_u16_I2cError_Cnt (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     00abh     00abh    0001h      DATA     0         @HCCINIT_ExtTxLength (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     00ach     00b0h    0005h      DATA     3.6       @HCCINIT0_Mflag (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     00b1h     00b2h    0002h      DATA     3         @HCCINIT0_temPtr (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     00b3h     00b5h    0003h      DATA     2         @HCCINIT0_intF (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     00b6h     00ceh    0019h      DATA     1.32      @HCCINIT0_BC3602_T (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\RF_API.OBJ)
+     00h     00cfh     00d2h    0004h      DATA     1         @HCCINIT0_mRFSync (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     00d3h     00f2h    0020h      DATA     0.2187    @HCCINIT0_RF_TXFIFO (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     00f3h     00f4h    0002h      DATA     0         @HCCINIT0_ADC_Value (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     00f5h     00f6h    0002h      DATA     0         @HCCINIT0_a (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     00f7h     00f7h    0001h      DATA     0         @HCCINIT0_ReceiveData (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     00f8h     00f8h    0001h      DATA     0         @HCCINIT0_u8_IIC_Count (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     00f9h     00f9h    0001h      DATA     0         @HCCINIT0_u8_I2c_WrRd_1ms (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     00fah     00fah    0001h      DATA     0         @HCCINIT0_Rx_Buff (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     00fbh     00fbh    0001h      DATA     0         @HCCINIT0_RF_IRQ (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     00fch     00fch    0001h      DATA     0         @HCCINIT0_ExtRxLength (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     00fdh     00feh    0002h      DATA     0         @HCCINIT0_Resent_Count (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\RF_API.OBJ)
+     01h     0080h     009fh    0020h      DATA     0.0937    @HCCINIT0_RF_RXFIFO (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     01h     00a0h     00a3h    0004h      DATA     0         @HCCINIT0_syncword (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\RF_API.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0097h     009ch    0006h      LOCAL    3         _convert_integer_to_string (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     008fh     0096h    0008h      LOCAL    8.5       _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009ah     009ah    0000h      LOCAL    0         @dummy (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     0099h     0099h    0001h      LOCAL    2         _main (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _Sys_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _fun_RamInit (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _sysInit (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _uart_prot_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _uart_int_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     008fh     0090h    0002h      LOCAL    51        _delay (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _adc_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_ADC.OBJ)
+     00h     008fh     008fh    0001h      LOCAL    9         _adc_selectChannel (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_ADC.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _IIC_Init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _ktd_en (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     0091h     0096h    0006h      LOCAL    39        _WriteI2C_Int (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _IIC_Start (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008fh     0090h    0002h      LOCAL    4         _Wr_Byte (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _checkAck (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _IIC_Stop (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _ktd_clear (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _int_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _gpio_init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     0095h     0095h    0000h      LOCAL    0         _RF_Init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _SpiIOInti (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\SPI.OBJ)
+     00h     0090h     0090h    0001h      LOCAL    2         _SpiWriteStrobeCMD (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _SpiCSN_low (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\SPI.OBJ)
+     00h     008fh     008fh    0001h      LOCAL    2         _SpiWrite (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\SPI.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _SpiCSN_high (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\SPI.OBJ)
+     00h     0092h     0092h    0001h      LOCAL    4         _ResetLvRF (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0090h     0091h    0002h      LOCAL    2         _SpiReadRegCMD (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _SpiRead (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\SPI.OBJ)
+     00h     0090h     0091h    0002h      LOCAL    29.5      _SpiWriteRegCMD (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0093h    0002h      LOCAL    12.5      _BC3602_Config (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     0095h     0095h    0000h      LOCAL    0         _RFWriteSyncword (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0090h     0094h    0005h      LOCAL    2.4       _RFWriteBuf (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0093h    0002h      LOCAL    2.5       _RFWriteFreqTABLE (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0093h    0002h      LOCAL    5         _RFSetDRPram (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0093h    0002h      LOCAL    1.5       _RFSetPower (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _RFXtalReady (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _RFCalibration (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _LircCalibration (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0001h      LOCAL    2         _RFGetClrRFIrq (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0096h     0096h    0001h      LOCAL    2         _RF_Parameter_loading (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\RF_API.OBJ)
+     00h     0090h     0095h    0006h      LOCAL    3.5       _RFReadBuf2 (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0090h     0091h    0002h      LOCAL    7         _uart_printf (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     008fh     008fh    0001h      LOCAL    2         _uart_send (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     0091h     0091h    0001h      LOCAL    0         _KEY_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     008fh     0090h    0002h      LOCAL    3         _DATA_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0096h     0098h    0003h      LOCAL    13        _SimpleFIFO_TX_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\RF_API.OBJ)
+     00h     0090h     0095h    0006h      LOCAL    4.5       _RFWriteBuf2 (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0096h     0098h    0003h      LOCAL    13        _SimpleFIFO_RX_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\RF_API.OBJ)
+     00h     0092h     0093h    0002h      LOCAL    12        _RF_Finished_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         @dummy28 (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _TB0_proc (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ)
+     00h     00a1h     00a2h    0002h      LOCAL    1         _uart_int (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     008fh     0094h    0006h      LOCAL    2.6667    _memcpy (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib)
+     00h     0097h     00a0h    000ah      LOCAL    3.7       _itoa (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     008fh     0094h    0006h      LOCAL    3.1667    _builtin_holtek_mulhi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008fh     008fh    0000h      LOCAL    0         @dummy4 (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _INT0_proc (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         @dummy36 (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _INT1_proc (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_GPIO.OBJ)
+     00h     008fh     008fh    0000h      LOCAL    0         _Rd_Byte (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_I2C.OBJ)
+     00h     0097h     0099h    0003h      LOCAL    0.6666    _ktd_rgb_ctrl (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     00a0h     00a6h    0007h      LOCAL    4.8571    _ktd_clockwise_ring (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     0097h     009fh    0009h      LOCAL    11.778    _ktd_ring (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     00a0h     00a6h    0007h      LOCAL    4.8571    _ktd_anticlockwise_ring (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_KTD.OBJ)
+     00h     0090h     0096h    0007h      LOCAL    1.8571    _RFReadBuf (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0095h    0004h      LOCAL    3         _RFWriteFreq (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _ResetTXFIFO (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _ResetRXFIFO (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _EntryLightSleep (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _EntryDeepSleep (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _EntryIdleMode (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0001h      LOCAL    3         _RF_TxCarrier (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0001h      LOCAL    2         _RF_RxBER (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0096h     0098h    0003h      LOCAL    1.3333    _RF_WriteFreq (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0096h     0097h    0002h      LOCAL    1         _RF_SetSniffPrm (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0096h     0097h    0002h      LOCAL    1         _RF_SetAddr (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _RF_EntryRxMode (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _RFDisATR (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _RF_EntrySniffMode (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _RFEnATR (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _RF_EntryWOT_Mode (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0095h     0095h    0000h      LOCAL    0         _RF_SendData (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0090h     0094h    0005h      LOCAL    3.2       _WriteFIFO (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _RF_ResendData (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0095h     0095h    0000h      LOCAL    0         _RF_ReadRxData (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0090h     0094h    0005h      LOCAL    3.2       _ReadFIFO (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _RFReadRssi (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _Extend_FIFO_Enable (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _Extend_FIFO_Disable (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _RFEnARK (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0092h     0092h    0000h      LOCAL    0         _RFDisARK (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     008fh     0096h    0008h      LOCAL    1.875     _CRC16_CCITT_FALSE (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _RF_Process_Init (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+     00h     0099h     0099h    0000h      LOCAL    0         _RF_Process (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     008fh     008fh    0000h      ILOCAL   0         _adc_getValue (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_ADC.OBJ)
+     00h     008fh     008fh    0000h      ILOCAL   0         _uart_receive (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_UART.OBJ)
+     00h     008fh     008fh    0000h      ILOCAL   0         _RFReadSyncword (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\BC3602.OBJ)
+     00h     008fh     008fh    0000h      ILOCAL   0         _System_deepsleep (c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\HAL_RF.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     00f3h              _ADC_Value
+     00c9h              _BANK0_REGS_TALBE
+     00c5h              _BANK1_REGS_TALBE
+     00bdh              _BANK2_REGS_TALBE
+     0838h              _BC3602_Config
+     00bbh              _BC3602_SYNCWORD
+     00b6h              _BC3602_T
+     008ah              _CBPF_REGS_TALBE
+     00d4h              _COMMON_REGS_TALBE
+     0af6h              _CRC16_CCITT_FALSE
+     0f01h              _Crom2Prom
+     0f00h              _Crom2PromNext
+     0e12h              _DATA_Process
+     00a0h              _DM_REGS_TALBE
+     00a9h              _DeviceACK_CMD_Flag
+     00a7h              _DeviceACK_Flag
+     09b1h              _EntryDeepSleep
+     09b4h              _EntryIdleMode
+     09aeh              _EntryLightSleep
+     00fch              _ExtRxLength
+     00abh              _ExtTxLength
+     0acbh              _Extend_FIFO_Disable
+     0ab8h              _Extend_FIFO_Enable
+     008dh              _FCF_REGS_TALBE
+     00a8h              _Fg_I2c_WrRd
+     00abh              _Frequency_REGS_TALBE
+     0020h              _IIC_Init
+     0393h              _IIC_Start
+     03a3h              _IIC_Stop
+     0387h              _INT0_proc
+     038dh              _INT1_proc
+     00e0h              _IRQIO_REGS_TALBE
+     0e23h              _KEY_Process
+     09b7h              _LircCalibration
+     00ach              _Mflag
+     00d5h              _PACKET_REGS_TALBE
+     0992h              _RFCalibration
+     0aedh              _RFDisARK
+     0816h              _RFDisATR
+     0adch              _RFEnARK
+     080dh              _RFEnATR
+     09a0h              _RFGetClrRFIrq
+     079ch              _RFReadBuf
+     07b7h              _RFReadBuf2
+     0ab3h              _RFReadRssi
+     0003h              _RFReadSyncword
+     08d8h              _RFSetDRPram
+     0974h              _RFSetPower
+     076bh              _RFWriteBuf
+     0780h              _RFWriteBuf2
+     0946h              _RFWriteFreq
+     0921h              _RFWriteFreqTABLE
+     08c7h              _RFWriteSyncword
+     081fh              _RFXtalReady
+     0a5ch              _RF_EntryRxMode
+     0a6ah              _RF_EntrySniffMode
+     0a7dh              _RF_EntryWOT_Mode
+     0d6fh              _RF_Finished_Process
+     00fbh              _RF_IRQ
+     09c5h              _RF_Init
+     0b3ch              _RF_Parameter_loading
+     0e46h              _RF_Process
+     0d69h              _RF_Process_Init
+     0180h              _RF_RXFIFO
+     0aa9h              _RF_ReadRxData
+     0aa3h              _RF_ResendData
+     0a02h              _RF_RxBER
+     0a8eh              _RF_SendData
+     0a53h              _RF_SetAddr
+     0a4ah              _RF_SetSniffPrm
+     00d3h              _RF_TXFIFO
+     09ddh              _RF_TxCarrier
+     0a32h              _RF_WriteFreq
+     03d6h              _Rd_Byte
+     07f0h              _ReadFIFO
+     00f7h              _ReceiveData
+     00fdh              _Resent_Count
+     0825h              _ResetLvRF
+     09abh              _ResetRXFIFO
+     09a8h              _ResetTXFIFO
+     00fah              _Rx_Buff
+     0c49h              _SimpleFIFO_RX_Process
+     0b7bh              _SimpleFIFO_TX_Process
+     0d22h              _SpiCSN_high
+     0d20h              _SpiCSN_low
+     0d10h              _SpiIOInti
+     0d24h              _SpiRead
+     075fh              _SpiReadRegCMD
+     0d2fh              _SpiWrite
+     074eh              _SpiWriteRegCMD
+     0759h              _SpiWriteStrobeCMD
+     0d4ch              _Sys_init
+     0e6dh              _System_deepsleep
+     01e7h              _TB0_proc
+     00afh              _TxPowerValue
+     03b0h              _Wr_Byte
+     07d5h              _WriteFIFO
+     0409h              _WriteI2C_Int
+     0092h              _WriteI2C_Int_2
+     0ed1h              __DELAYX0
+     0ed0h              __DELAYX1
+     0ed0h              __DELAYX2
+     0ecfh              __DELAYX3
+     0ecfh              __DELAYX4
+     0eceh              __DELAYX5
+     0eceh              __DELAYX6
+     00f5h              _a
+     0263h              _adc_getValue
+     0250h              _adc_init
+     01feh              _adc_selectChannel
+     0e84h              _builtin_holtek_divmodhi4_isr00
+     0ebbh              _builtin_holtek_mulhi3_isr00
+     0e8dh              _builtin_holtek_udivmodhi4_isr00
+     03f2h              _checkAck
+     00e7h              _convert_integer_to_string
+     0097h              _convert_integer_to_string_2
+     015ah              _delay
+     008fh              _delay_2
+     0d39h              _fun_RamInit
+     036bh              _gpio_init
+     00b3h              _intF
+     0378h              _int_init
+     027bh              _itoa
+     009dh              _itoa_2
+     06bah              _ktd_anticlockwise_ring
+     043bh              _ktd_clear
+     0626h              _ktd_clockwise_ring
+     00a3h              _ktd_clockwise_ring_2
+     041fh              _ktd_en
+     04d8h              _ktd_rgb_ctrl
+     057fh              _ktd_ring
+     00cfh              _mRFSync
+     0186h              _main
+     0001h              _margin_len
+     0ed8h              _memcpy
+     01a0h              _syncword
+     0170h              _sysInit
+     00b1h              _temPtr
+     00aah              _u16_I2cError_Cnt
+     00f9h              _u8_I2c_WrRd_1ms
+     00f8h              _u8_IIC_Count
+     034fh              _uart_int
+     00a1h              _uart_int_2
+     0015h              _uart_int_init
+     0340h              _uart_printf
+     0091h              _uart_printf_2
+     0324h              _uart_prot_init
+     033ah              _uart_receive
+     0332h              _uart_send
+     008bh              r104
+     0088h              r11c
+     008dh              r124
+     008ch              r204
+     0089h              r21c
+     008eh              r224
+     0080h              ra
+     008ah              ra1c
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     0008h              startup_value_1
+
+     Address            Public by Value
+     0001h              _margin_len
+     0003h              _RFReadSyncword
+     0008h              startup_value_1
+     0015h              _uart_int_init
+     0020h              _IIC_Init
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     0088h              r11c
+     0089h              r21c
+     008ah              _CBPF_REGS_TALBE
+     008ah              ra1c
+     008bh              r104
+     008ch              r204
+     008dh              _FCF_REGS_TALBE
+     008dh              r124
+     008eh              r224
+     008fh              _delay_2
+     0091h              _uart_printf_2
+     0092h              _WriteI2C_Int_2
+     0097h              _convert_integer_to_string_2
+     009dh              _itoa_2
+     00a0h              _DM_REGS_TALBE
+     00a1h              _uart_int_2
+     00a3h              _ktd_clockwise_ring_2
+     00a7h              _DeviceACK_Flag
+     00a8h              _Fg_I2c_WrRd
+     00a9h              _DeviceACK_CMD_Flag
+     00aah              _u16_I2cError_Cnt
+     00abh              _ExtTxLength
+     00abh              _Frequency_REGS_TALBE
+     00ach              _Mflag
+     00afh              _TxPowerValue
+     00b1h              _temPtr
+     00b3h              _intF
+     00b6h              _BC3602_T
+     00bbh              _BC3602_SYNCWORD
+     00bdh              _BANK2_REGS_TALBE
+     00c5h              _BANK1_REGS_TALBE
+     00c9h              _BANK0_REGS_TALBE
+     00cfh              _mRFSync
+     00d3h              _RF_TXFIFO
+     00d4h              _COMMON_REGS_TALBE
+     00d5h              _PACKET_REGS_TALBE
+     00e0h              _IRQIO_REGS_TALBE
+     00e7h              _convert_integer_to_string
+     00f3h              _ADC_Value
+     00f5h              _a
+     00f7h              _ReceiveData
+     00f8h              _u8_IIC_Count
+     00f9h              _u8_I2c_WrRd_1ms
+     00fah              _Rx_Buff
+     00fbh              _RF_IRQ
+     00fch              _ExtRxLength
+     00fdh              _Resent_Count
+     015ah              _delay
+     0170h              _sysInit
+     0180h              _RF_RXFIFO
+     0186h              _main
+     01a0h              _syncword
+     01e7h              _TB0_proc
+     01feh              _adc_selectChannel
+     0250h              _adc_init
+     0263h              _adc_getValue
+     027bh              _itoa
+     0324h              _uart_prot_init
+     0332h              _uart_send
+     033ah              _uart_receive
+     0340h              _uart_printf
+     034fh              _uart_int
+     036bh              _gpio_init
+     0378h              _int_init
+     0387h              _INT0_proc
+     038dh              _INT1_proc
+     0393h              _IIC_Start
+     03a3h              _IIC_Stop
+     03b0h              _Wr_Byte
+     03d6h              _Rd_Byte
+     03f2h              _checkAck
+     0409h              _WriteI2C_Int
+     041fh              _ktd_en
+     043bh              _ktd_clear
+     04d8h              _ktd_rgb_ctrl
+     057fh              _ktd_ring
+     0626h              _ktd_clockwise_ring
+     06bah              _ktd_anticlockwise_ring
+     074eh              _SpiWriteRegCMD
+     0759h              _SpiWriteStrobeCMD
+     075fh              _SpiReadRegCMD
+     076bh              _RFWriteBuf
+     0780h              _RFWriteBuf2
+     079ch              _RFReadBuf
+     07b7h              _RFReadBuf2
+     07d5h              _WriteFIFO
+     07f0h              _ReadFIFO
+     080dh              _RFEnATR
+     0816h              _RFDisATR
+     081fh              _RFXtalReady
+     0825h              _ResetLvRF
+     0838h              _BC3602_Config
+     08c7h              _RFWriteSyncword
+     08d8h              _RFSetDRPram
+     0921h              _RFWriteFreqTABLE
+     0946h              _RFWriteFreq
+     0974h              _RFSetPower
+     0992h              _RFCalibration
+     09a0h              _RFGetClrRFIrq
+     09a8h              _ResetTXFIFO
+     09abh              _ResetRXFIFO
+     09aeh              _EntryLightSleep
+     09b1h              _EntryDeepSleep
+     09b4h              _EntryIdleMode
+     09b7h              _LircCalibration
+     09c5h              _RF_Init
+     09ddh              _RF_TxCarrier
+     0a02h              _RF_RxBER
+     0a32h              _RF_WriteFreq
+     0a4ah              _RF_SetSniffPrm
+     0a53h              _RF_SetAddr
+     0a5ch              _RF_EntryRxMode
+     0a6ah              _RF_EntrySniffMode
+     0a7dh              _RF_EntryWOT_Mode
+     0a8eh              _RF_SendData
+     0aa3h              _RF_ResendData
+     0aa9h              _RF_ReadRxData
+     0ab3h              _RFReadRssi
+     0ab8h              _Extend_FIFO_Enable
+     0acbh              _Extend_FIFO_Disable
+     0adch              _RFEnARK
+     0aedh              _RFDisARK
+     0af6h              _CRC16_CCITT_FALSE
+     0b3ch              _RF_Parameter_loading
+     0b7bh              _SimpleFIFO_TX_Process
+     0c49h              _SimpleFIFO_RX_Process
+     0d10h              _SpiIOInti
+     0d20h              _SpiCSN_low
+     0d22h              _SpiCSN_high
+     0d24h              _SpiRead
+     0d2fh              _SpiWrite
+     0d39h              _fun_RamInit
+     0d4ch              _Sys_init
+     0d69h              _RF_Process_Init
+     0d6fh              _RF_Finished_Process
+     0e12h              _DATA_Process
+     0e23h              _KEY_Process
+     0e46h              _RF_Process
+     0e6dh              _System_deepsleep
+     0e84h              _builtin_holtek_divmodhi4_isr00
+     0e8dh              _builtin_holtek_udivmodhi4_isr00
+     0ebbh              _builtin_holtek_mulhi3_isr00
+     0eceh              __DELAYX5
+     0eceh              __DELAYX6
+     0ecfh              __DELAYX3
+     0ecfh              __DELAYX4
+     0ed0h              __DELAYX1
+     0ed0h              __DELAYX2
+     0ed1h              __DELAYX0
+     0ed8h              _memcpy
+     0f00h              _Crom2PromNext
+     0f01h              _Crom2Prom
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     2000h     0f10h    47%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     007fh    99%
+     01h       0080h     0024h    28%
+     02h       0080h     0000h    0%
+     03h       0080h     0000h    0%
+     Total     0200h     00a3h    31%
+
+Use Stack Count
+_convert_integer_to_string: 1
+_main: 5
+_TB0_proc: 0
+_uart_int: 2
+_INT0_proc: 0
+_INT1_proc: 0
+_Rd_Byte: 1
+_ktd_rgb_ctrl: 3
+_ktd_clockwise_ring: 4
+_ktd_anticlockwise_ring: 4
+_RFReadBuf: 1
+_RFWriteFreq: 2
+_ResetTXFIFO: 2
+_ResetRXFIFO: 2
+_EntryLightSleep: 2
+_EntryDeepSleep: 2
+_EntryIdleMode: 2
+_RF_TxCarrier: 3
+_RF_RxBER: 3
+_RF_WriteFreq: 2
+_RF_SetSniffPrm: 2
+_RF_SetAddr: 2
+_RF_EntryRxMode: 3
+_RF_EntrySniffMode: 3
+_RF_EntryWOT_Mode: 3
+_RF_SendData: 3
+_RF_ResendData: 3
+_RF_ReadRxData: 2
+_RFReadRssi: 2
+_Extend_FIFO_Enable: 2
+_Extend_FIFO_Disable: 2
+_RFEnARK: 2
+_RFDisARK: 2
+_CRC16_CCITT_FALSE: 1
+_RF_Process_Init: 4
+_RF_Process: 3
+
+Call Tree
+    _convert_integer_to_string
+        _builtin_holtek_divmodhi4_isr00 (0)
+    @dummy
+        _main (0)
+            _Sys_init (1)
+                _fun_RamInit (2)
+            _sysInit (1)
+                _uart_prot_init (2)
+                    _uart_int_init (3)
+                _delay (2)
+                _adc_init (2)
+                    _adc_selectChannel (3)
+                    _delay (3)
+                _IIC_Init (2)
+                _ktd_en (2)
+                    _WriteI2C_Int (3)
+                        _IIC_Start (4)
+                            __DELAYX (5)
+                        _Wr_Byte (4)
+                            __DELAYX (5)
+                        _checkAck (4)
+                            __DELAYX (5)
+                        _IIC_Stop (4)
+                            __DELAYX (5)
+                    _delay (3)
+                _ktd_clear (2)
+                    _WriteI2C_Int (3)
+                        _IIC_Start (4)
+                            __DELAYX (5)
+                        _Wr_Byte (4)
+                            __DELAYX (5)
+                        _checkAck (4)
+                            __DELAYX (5)
+                        _IIC_Stop (4)
+                            __DELAYX (5)
+                    _delay (3)
+                _int_init (2)
+                    _gpio_init (3)
+                    _delay (3)
+            _RF_Init (1)
+                _SpiIOInti (2)
+                _SpiWriteStrobeCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+                _ResetLvRF (2)
+                    _SpiReadRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiRead (4)
+                        _SpiCSN_high (4)
+                    _SpiWriteRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiCSN_high (4)
+                _BC3602_Config (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                    _SpiWriteRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiCSN_high (4)
+                    _SpiWriteStrobeCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiCSN_high (4)
+                _RFWriteSyncword (2)
+                    _RFWriteBuf (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _Crom2Prom (4)
+                        _SpiCSN_high (4)
+                _RFWriteFreqTABLE (2)
+                    _SpiReadRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiRead (4)
+                        _SpiCSN_high (4)
+                    _SpiWriteRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiCSN_high (4)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                _RFSetDRPram (2)
+                    _SpiWriteStrobeCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiCSN_high (4)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                    _SpiWriteRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiCSN_high (4)
+                _RFSetPower (2)
+                    _Crom2Prom (3)
+                    _SpiWriteRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiCSN_high (4)
+                _RFXtalReady (2)
+                    _SpiReadRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiRead (4)
+                        _SpiCSN_high (4)
+                _RFCalibration (2)
+                    _SpiReadRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiRead (4)
+                        _SpiCSN_high (4)
+                    _SpiWriteRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiCSN_high (4)
+                _LircCalibration (2)
+                    _SpiReadRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiRead (4)
+                        _SpiCSN_high (4)
+                    _SpiWriteRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiCSN_high (4)
+                _RFGetClrRFIrq (2)
+                    _SpiReadRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiRead (4)
+                        _SpiCSN_high (4)
+                    _SpiWriteRegCMD (3)
+                        _SpiCSN_low (4)
+                        _SpiWrite (4)
+                        _SpiCSN_high (4)
+            _RF_Parameter_loading (1)
+                _SpiWriteStrobeCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+                _RFReadBuf2 (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiRead (3)
+                    _SpiCSN_high (3)
+                _SpiReadRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiRead (3)
+                    _SpiCSN_high (3)
+            _delay (1)
+            _uart_printf (1)
+                _uart_send (2)
+                _Crom2Prom (2)
+            _KEY_Process (1)
+                _DATA_Process (2)
+            _SimpleFIFO_TX_Process (1)
+                _Crom2Prom (2)
+                _SpiWriteStrobeCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+                _SpiWriteRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+                _Crom2Prom (2)
+                _RFWriteBuf2 (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _Crom2Prom (3)
+                    _SpiCSN_high (3)
+                _SpiReadRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiRead (3)
+                    _SpiCSN_high (3)
+                __DELAYX (2)
+            _SimpleFIFO_RX_Process (1)
+                _Crom2Prom (2)
+                _SpiWriteStrobeCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+                _SpiWriteRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+                _SpiReadRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiRead (3)
+                    _SpiCSN_high (3)
+                _Crom2Prom (2)
+                _RFReadBuf2 (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiRead (3)
+                    _SpiCSN_high (3)
+            _RF_Finished_Process (1)
+                _Crom2Prom (2)
+                _uart_printf (2)
+                    _uart_send (3)
+                    _Crom2Prom (3)
+                _delay (2)
+    @dummy28
+        _TB0_proc (0)
+    _uart_int
+        _memcpy (0)
+            _Crom2Prom (1)
+        _itoa (0)
+            _builtin_holtek_divmodhi4_isr00 (1)
+            _builtin_holtek_mulhi3_isr00 (1)
+            _Crom2Prom (1)
+        _uart_printf (0)
+            _uart_send (1)
+            _Crom2Prom (1)
+    @dummy4
+        _INT0_proc (0)
+    @dummy36
+        _INT1_proc (0)
+    _Rd_Byte
+        __DELAYX (0)
+    _ktd_rgb_ctrl
+        _WriteI2C_Int (0)
+            _IIC_Start (1)
+                __DELAYX (2)
+            _Wr_Byte (1)
+                __DELAYX (2)
+            _checkAck (1)
+                __DELAYX (2)
+            _IIC_Stop (1)
+                __DELAYX (2)
+        _delay (0)
+    _ktd_clockwise_ring
+        _ktd_ring (0)
+            _WriteI2C_Int (1)
+                _IIC_Start (2)
+                    __DELAYX (3)
+                _Wr_Byte (2)
+                    __DELAYX (3)
+                _checkAck (2)
+                    __DELAYX (3)
+                _IIC_Stop (2)
+                    __DELAYX (3)
+            _delay (1)
+        _delay (0)
+    _ktd_anticlockwise_ring
+        _ktd_ring (0)
+            _WriteI2C_Int (1)
+                _IIC_Start (2)
+                    __DELAYX (3)
+                _Wr_Byte (2)
+                    __DELAYX (3)
+                _checkAck (2)
+                    __DELAYX (3)
+                _IIC_Stop (2)
+                    __DELAYX (3)
+            _delay (1)
+        _delay (0)
+    _RFReadBuf
+        _SpiCSN_low (0)
+        _SpiWrite (0)
+        _SpiRead (0)
+        _SpiCSN_high (0)
+    _RFWriteFreq
+        _SpiReadRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _ResetTXFIFO
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+    _ResetRXFIFO
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+    _EntryLightSleep
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+    _EntryDeepSleep
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+    _EntryIdleMode
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+    _RF_TxCarrier
+        _SpiReadRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _RFXtalReady (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+    _RF_RxBER
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _SpiReadRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _RFXtalReady (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+    _RF_WriteFreq
+        _SpiReadRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _RFWriteBuf2 (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _Crom2Prom (1)
+            _SpiCSN_high (1)
+    _RF_SetSniffPrm
+        _RFWriteBuf2 (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _Crom2Prom (1)
+            _SpiCSN_high (1)
+    _RF_SetAddr
+        _RFWriteBuf2 (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _Crom2Prom (1)
+            _SpiCSN_high (1)
+    _RF_EntryRxMode
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _RFXtalReady (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+        _RFDisATR (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+        _RFCalibration (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+    _RF_EntrySniffMode
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _RFXtalReady (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+        _RFDisATR (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+        _SpiReadRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _RFCalibration (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+        _RFEnATR (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+    _RF_EntryWOT_Mode
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _RFXtalReady (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+        _RFDisATR (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+        _SpiReadRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _RFCalibration (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+        _RFEnATR (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+    _RF_SendData
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _RFXtalReady (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+        _RFDisATR (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+        _RFCalibration (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _WriteFIFO (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _Crom2Prom (1)
+            _SpiCSN_high (1)
+    _RF_ResendData
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+        _RFXtalReady (0)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+    _RF_ReadRxData
+        _ReadFIFO (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+        _SpiWriteStrobeCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+    _RFReadRssi
+        _SpiReadRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+    _Extend_FIFO_Enable
+        _SpiReadRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+    _Extend_FIFO_Disable
+        _SpiReadRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+    _RFEnARK
+        _SpiReadRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+    _RFDisARK
+        _SpiReadRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiRead (1)
+            _SpiCSN_high (1)
+        _SpiWriteRegCMD (0)
+            _SpiCSN_low (1)
+            _SpiWrite (1)
+            _SpiCSN_high (1)
+    _CRC16_CCITT_FALSE
+        _Crom2Prom (0)
+    _RF_Process_Init
+        _Sys_init (0)
+            _fun_RamInit (1)
+        _RF_Init (0)
+            _SpiIOInti (1)
+            _SpiWriteStrobeCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+            _ResetLvRF (1)
+                _SpiReadRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiRead (3)
+                    _SpiCSN_high (3)
+                _SpiWriteRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+            _BC3602_Config (1)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _SpiWriteRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+                _SpiWriteStrobeCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+            _RFWriteSyncword (1)
+                _RFWriteBuf (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _Crom2Prom (3)
+                    _SpiCSN_high (3)
+            _RFWriteFreqTABLE (1)
+                _SpiReadRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiRead (3)
+                    _SpiCSN_high (3)
+                _SpiWriteRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            _RFSetDRPram (1)
+                _SpiWriteStrobeCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _SpiWriteRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+            _RFSetPower (1)
+                _Crom2Prom (2)
+                _SpiWriteRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+            _RFXtalReady (1)
+                _SpiReadRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiRead (3)
+                    _SpiCSN_high (3)
+            _RFCalibration (1)
+                _SpiReadRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiRead (3)
+                    _SpiCSN_high (3)
+                _SpiWriteRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+            _LircCalibration (1)
+                _SpiReadRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiRead (3)
+                    _SpiCSN_high (3)
+                _SpiWriteRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+            _RFGetClrRFIrq (1)
+                _SpiReadRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiRead (3)
+                    _SpiCSN_high (3)
+                _SpiWriteRegCMD (2)
+                    _SpiCSN_low (3)
+                    _SpiWrite (3)
+                    _SpiCSN_high (3)
+        _RF_Parameter_loading (0)
+            _SpiWriteStrobeCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+            _RFReadBuf2 (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+    _RF_Process
+        _KEY_Process (0)
+            _DATA_Process (1)
+        _SimpleFIFO_TX_Process (0)
+            _Crom2Prom (1)
+            _SpiWriteStrobeCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+            _Crom2Prom (1)
+            _RFWriteBuf2 (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _Crom2Prom (2)
+                _SpiCSN_high (2)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            __DELAYX (1)
+        _SimpleFIFO_RX_Process (0)
+            _Crom2Prom (1)
+            _SpiWriteStrobeCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+            _SpiWriteRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiCSN_high (2)
+            _SpiReadRegCMD (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+            _Crom2Prom (1)
+            _RFReadBuf2 (1)
+                _SpiCSN_low (2)
+                _SpiWrite (2)
+                _SpiRead (2)
+                _SpiCSN_high (2)
+        _RF_Finished_Process (0)
+            _Crom2Prom (1)
+            _uart_printf (1)
+                _uart_send (2)
+                _Crom2Prom (2)
+            _delay (1)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'c:\users\user\documents\htk_project\3652_adc_test_vib_1\Output\MAIN.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
